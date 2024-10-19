@@ -1,0 +1,28 @@
+{
+	"name": "edu-master",
+	"version": "1.0.0",
+	"description": "LearnSphere is a powerful Node.js API for an e-learning platform that enables secure course management, user authentication, and interactive learning experiences.",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon app.js"
+	},
+	"author": "Kerlos-Alfy",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"bcryptjs": "^2.4.3",
+		"colors": "^1.4.0",
+		"dotenv": "^16.4.5",
+		"edu-master": "file:",
+		"express": "^4.21.1",
+		"express-async-handler": "^1.2.0",
+		"express-validator": "^7.2.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.7.1",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"sharp": "^0.33.5",
+		"uuid": "^10.0.0",
+		"uuidv4": "^6.2.13"
+	}
+}
